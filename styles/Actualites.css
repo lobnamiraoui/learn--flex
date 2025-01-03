@@ -1,0 +1,39 @@
+body {
+  background-color: #fffaec;
+  font-family: "roboto" sans-serif;
+}
+h1 {
+  color:#740938;;
+  font-weight: 500;
+}
+h1:hover {
+  color: #FCCD2A;
+}
+
+a,
+li {
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  padding-right: 20px;
+  font-size: large;
+}
+a:viseted {
+  color: #740938;
+}
+footer p {
+  text-align: center;
+  padding: 2px;
+  background-color: #c96868;
+  color: #fffaec;
+  margin-top: 2px;
+  font-size: 0.9rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30%;
+  align-items: center;
+}

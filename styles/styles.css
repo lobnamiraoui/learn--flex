@@ -1,0 +1,33 @@
+
+body{
+    background-color:#FFFAEC;
+    font-family: 'roboto' sans-serif;
+    
+}
+a,
+li{
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    padding-right: 20px;
+    font-size: large;
+}
+a:viseted{
+    color:red
+}
+footer p {
+    text-align: center;
+    padding: 2px ;
+    background-color: #C96868;
+    color: #FFFFFF;
+    margin-top: 2px;
+    font-size: 0.9rem;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30%;
+    align-items: center;
+    }

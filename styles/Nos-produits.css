@@ -1,0 +1,84 @@
+
+
+body{
+    background-color:#FFFAEC;
+    font-family: 'roboto' sans-serif;
+    
+}
+
+h1{
+
+    color: #740938;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size:xx-large;
+    padding: 20px;
+}
+
+h1:hover{
+    color: #FCCD2A;
+
+}
+
+.product a{
+    color: #C73659;
+   font-style: italic;
+   
+}
+
+a,
+li{
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    padding-right: 20px;
+    font-size: large;
+}
+a:viseted{
+    color: #FCCD2A;
+    color:
+}
+
+h2:hover{
+    color: #FCCD2A;
+    
+
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:left;
+    font-size: medium;
+}
+footer p {
+    text-align: center;
+    padding: 2px ;
+    background-color: #C96868;
+    color: #FFFAEC;
+    margin-top: 2px;
+    font-size: 0.9rem;
+}
+
+header{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+gap: 30%;
+align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 400px;
+}
