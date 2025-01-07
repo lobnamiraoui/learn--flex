@@ -24,6 +24,7 @@ h1:hover{
 .product a{
     color: #C73659;
    font-style: italic;
+   font-size: x-large;
    
 }
 
@@ -81,4 +82,5 @@ align-items: center;
     align-items: center;
     padding: 10px;
     width: 400px;
+    font-size: large;
 }

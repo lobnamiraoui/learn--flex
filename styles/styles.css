@@ -10,7 +10,7 @@ li{
     display: inline;
     text-align: center;
     padding-right: 20px;
-    font-size: large;
+    font-size: large;}
 a:viseted{
     color:#FCCD2A;
     
@@ -28,6 +28,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 30%;
+    gap: 400px;
     align-items: center;
     }
